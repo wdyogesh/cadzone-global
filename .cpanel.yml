@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/user/public_html/
+    - export DEPLOYPATH=/home/mpg1lamw0vps/public_html/cadzone-global.com/
     - /bin/cp -R images $DEPLOYPATH
