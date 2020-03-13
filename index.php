@@ -1,2 +1,3 @@
 <?php
-echo "Welcome";
+
+echo "Welcome to the new site and website";
