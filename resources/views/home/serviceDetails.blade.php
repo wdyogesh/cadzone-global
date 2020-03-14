@@ -27,17 +27,17 @@
                                 <div class="row">
                                     <div class="col-lg-12 col-md-12">
                                         <div class="sda_gl">
-                                            <img src="{{ public_path('/service_images/'.$service->image_1) }}" alt="Servcie Image">
+                                            <img src="{{ public_path('service_images/'.$service->image_1) }}" alt="Servcie Image">
                                         </div>
                                     </div>
                                     <div class="col-lg-6 col-md-6">
                                         <div class="sda_gl">
-                                           <img src="{{ '/service_images/'.$service->image_2 }}" alt="Servcie Image">
+                                           <img src="{{ public_path('service_images/'.$service->image_2) }}" alt="Servcie Image">
                                         </div>
                                     </div>
                                     <div class="col-lg-6 col-md-6">
                                         <div class="sda_gl">
-                                            <img src="{{ '/service_images/'.$service->image_3 }}" alt="Servcie Image">
+                                            <img src="{{ public_path('service_images/'.$service->image_3) }}" alt="Servcie Image">
                                         </div>
                                     </div>
                                 </div>
