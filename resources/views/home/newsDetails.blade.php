@@ -22,7 +22,7 @@
                         <div class="newsDetailsArea">
                             <div class="newsThumb">
                                 <div class="ntItem">
-                                <img src="{{ '/news_images/'.$news->image }}" alt="{{ $news->title }}"/>
+                                <img src="{{ '/public/news_images/'.$news->image }}" alt="{{ $news->title }}"/>
                                 </div>
                             </div>
                             <div class="newsDetails">
@@ -41,7 +41,7 @@
                                 <div class="allfeeds">
                                      @foreach ($newses as $nws)
                                         <div class="singlefeeds clearfix">
-                                            <img class = "thumbnail" width="80px" height="60px" src="{{ '/news_images/'.$nws->image }}" alt="{{ $nws->title }}"/>
+                                            <img class = "thumbnail" width="80px" height="60px" src="{{ '/public/news_images/'.$nws->image }}" alt="{{ $nws->title }}"/>
                                             <h6><a href="{{ route('news.details', $nws->title_slug) }}">{{  $nws->title }}</a></h6>
                                         <span><i class="fal fa-clock"></i> {{ $nws->created_at->diffForHumans() }} </span>
                                         </div>

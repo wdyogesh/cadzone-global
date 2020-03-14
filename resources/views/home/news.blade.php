@@ -22,7 +22,7 @@
                         <div class="col-xl-4 col-md-6 col-lg-4 mb51">
                         <div class="singleBlog">
                             <div class="sbThumb">
-                            <img src="{{ '/news_images/'.$nws->image }}" alt="{{ $nws->title }}"/>
+                            <img src="{{ '/public/news_images/'.$nws->image }}" alt="{{ $nws->title }}"/>
                             </div>
                             <div class="sbDetails">
                                 <h4>
