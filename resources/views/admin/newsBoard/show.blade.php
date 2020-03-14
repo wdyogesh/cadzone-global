@@ -1,4 +1,4 @@
-@extends('Admin.layouts.app')
+@extends('admin.layouts.app')
 @section('app_title', 'Show News Board')
 @section('add_css')
 <link rel="stylesheet" href="{{ asset('/home/css/bootstrap3-wysihtml5.min.css') }}">

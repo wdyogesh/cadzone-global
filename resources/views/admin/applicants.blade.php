@@ -1,4 +1,4 @@
-@extends('Admin.layouts.app')
+@extends('admin.layouts.app')
 @section('app_title', 'Applicants')
 @section('content')
     <!-- Begin Page Content -->
