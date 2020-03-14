@@ -3,8 +3,11 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Models\Application;
+use App\Models\Company;
 use App\Models\Contact;
 use App\Models\NewsBoards;
+use App\User;
 
 class AdminController extends Controller
 {
@@ -29,8 +32,10 @@ class AdminController extends Controller
     {
         $count = [
             'contacts' => Contact::count(),
-            'applicants' => 3,
-            'compnies' => 4,
+            'applicants' => Application::count(),
+            'compnies' => Company::count(),
+            'employees' => User::where('role', '3')->count(),
+            'hr' => User::where('role', '2')->count(),
         ];
         $newsboard = NewsBoards::orderBy('id', 'desc')->first();
         return view('admin.dashboard', compact('count', 'newsboard'));
