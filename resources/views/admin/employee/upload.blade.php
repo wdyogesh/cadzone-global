@@ -43,7 +43,7 @@
                     </div>
                     <div class="col-md-4">
                         @isset($uploadDocuments->aadhar_card)
-                            <img class="profile" width="60%" src="{{ url('user_documents/'.$uploadDocuments->aadhar_card) }}" alt="Addhar Card">
+                            <img class="profile" width="60%" src="{{ url('public/user_documents/'.$uploadDocuments->aadhar_card) }}" alt="Addhar Card">
                         @endisset
                     </div>
                 </div>
@@ -63,7 +63,7 @@
                     </div>
                     <div class="col-md-4">
                         @isset($uploadDocuments->pan_card)
-                            <img class="profile" width="60%" src="{{ url('user_documents/'.$uploadDocuments->pan_card) }}" alt="Pan Card">
+                            <img class="profile" width="60%" src="{{ url('public/user_documents/'.$uploadDocuments->pan_card) }}" alt="Pan Card">
                         @endisset
                     </div>
                 </div>
