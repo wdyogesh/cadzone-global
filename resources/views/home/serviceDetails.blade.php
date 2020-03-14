@@ -27,17 +27,17 @@
                                 <div class="row">
                                     <div class="col-lg-12 col-md-12">
                                         <div class="sda_gl">
-                                            <img src="{{ 'public/service_images/'.$service->image_1 }}" alt="{{ $service->title }}">
+                                            <img src="{{ 'service_images/'.$service->image_1 }}" alt="{{ $service->title }}">
                                         </div>
                                     </div>
                                     <div class="col-lg-6 col-md-6">
                                         <div class="sda_gl">
-                                           <img src="{{ 'public/service_images/'.$service->image_2 }}" alt="{{ $service->title }}">
+                                           <img src="{{ 'service_images/'.$service->image_2 }}" alt="{{ $service->title }}">
                                         </div>
                                     </div>
                                     <div class="col-lg-6 col-md-6">
                                         <div class="sda_gl">
-                                            <img src="{{ 'public/service_images/'.$service->image_3 }}" alt="{{ $service->title }}">
+                                            <img src="{{ 'service_images/'.$service->image_3 }}" alt="{{ $service->title }}">
                                         </div>
                                     </div>
                                 </div>
