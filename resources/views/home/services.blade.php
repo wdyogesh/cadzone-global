@@ -28,26 +28,6 @@
                                 @endforeach
                             </ul>
                         </aside>
-                        <aside class="widget">
-                            <h3 class="widget_title">Our Brochures</h3>
-                            <div class="allBrouchers">
-                                <div class="singleBrou">
-                                    <i class="fal fa-file-pdf"></i>
-                                    <h3><a href="#" target="_blank">Company Profile <span>(1.5mb)</span></a></h3>
-                                    <a href="#" target="_blank">Download</a>
-                                </div>
-                                <div class="singleBrou">
-                                    <i class="fal fa-file-pdf"></i>
-                                    <h3><a href="#" target="_blank">Product Profile <span>(1.5mb)</span></a></h3>
-                                    <a href="#" target="_blank">Download</a>
-                                </div>
-                                <div class="singleBrou">
-                                    <i class="fal fa-file-pdf"></i>
-                                    <h3><a href="#" target="_blank">Service Overview <span>(1.5mb)</span></a></h3>
-                                    <a href="#" target="_blank">Download</a>
-                                </div>
-                            </div>
-                        </aside>
                         <aside class="widget havqueswidget">
                             <h3 class="widget_title">Have any Questions?</h3>
                             <div class="hqw_content">
