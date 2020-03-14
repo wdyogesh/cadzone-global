@@ -6,7 +6,7 @@
     <section class="page_banner">
             <div class="container">
                 <div class="col-xl-12 text-center">
-                    <h2>Career</h2>
+                    <h2>Careers</h2>
                     <div class="breadcrumbs">
                     <a href="{{ url('/') }}">Home</a><i>|</i><span>Careers</span>
                     </div>
@@ -16,26 +16,16 @@
         <section class="commonSection pdb90">
            <div class="container">
             <div class="about-top heading">
-                <h2>Application</h2>
+                <h2>Application Form</h2>
             </div>
             <div class="about-bottom">
-                <div class="col-md-2 about-left">
-                    <img src="{{ asset('assets/images/Membership.png') }}" alt="Become Our Mamber" />
-                </div>
-                <div class="col-md-10 about-right">
-                    <h4>Become Member With Us.</h4>
-                    <p>We are in long race you do you want to join Us, fill this form or download application form and fill and send in our postal address !! </p>
-                    <p><a target="_blank" href="{{ url('assets/docs/Application_form.pdf') }}"> <span class="glyphicon glyphicon-download"></span> Download Form </a> </p>
-                </div>
-                <div class="col-md-12">
-                    <h4 style="text-align: center; text-decoration: underline;"> Membership Registration Form </h4>
+                <div class="row">
+                    <div class="col-md-8">
+                    <h4 style="text-align: center; text-decoration: underline;"> Basic Registration Form </h4>
                     @if(session('message'))
                         <h4 style="text-align: center; color: green;">{{ session('message') }}</h4>
                     @endif
-                </div>
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <form action="{{ url('/application') }}" method="post" enctype="multipart/form-data">
+                     <form action="{{ url('/career') }}" method="post" enctype="multipart/form-data">
                             @csrf()
                             <div class="row">
                                 <div class="col-md-12 col-sm-6">
@@ -43,39 +33,19 @@
                                        <label for="">
                                            Apply For: <span style="color: red"> * </span>
                                        </label>
-                                       <label class="checkbox-inline">
-                                           <input type="checkbox" id="inlineCheckbox1" {{ old('apply_for') == 'Dist. Co-ordinate' ? "checked" : '' }} name="apply_for[]" value="Dist. Co-ordinate"> Dist. Co-ordinate
-                                       </label>
-                                       <label class="checkbox-inline">
-                                           <input type="checkbox" id="inlineCheckbox2" {{ old('apply_for') == 'Block Co-ordinate' ? "checked" : '' }} name="apply_for[]" value="Block Co-ordinate"> Block Co-ordinate
-                                       </label>
-                                       <label class="checkbox-inline">
-                                           <input type="checkbox" id="inlineCheckbox3" {{ old('apply_for') == 'Team Co-ordinate' ? "checked" : '' }} name="apply_for[]" value="Team Co-ordinate"> Team Co-ordinate
-                                       </label>
-                                       <label class="checkbox-inline">
-                                           <input type="checkbox" id="inlineCheckbox3" {{ old('apply_for') == 'Mahila Mitra' ? "checked" : '' }} name="apply_for[]" value="Mahila Mitra"> Mahila Mitra
-                                       </label>
+                                        <label class="checkbox-inline">
+                                           <input type="checkbox" id="inlineCheckbox1" {{ old('apply_for') == 'Trainer' ? "checked" : '' }}
+                                           name="apply_for[]" value="Trainer"> Trainer
+                                        </label>
+                                        <label class="checkbox-inline">
+                                           <input type="checkbox" id="inlineCheckbox1" {{ old('apply_for') == 'Job' ? "checked" : '' }}
+                                           name="apply_for[]" value="Job"> Job
+                                        </label>
                                        <span class="error text-danger pull-left"> {{ $errors->first('apply_for') }} </span>
                                    </div>
                                 </div>
                             </div>
 
-                            <div class="row">
-                                <div class="col-md-6 col-sm-6">
-                                    <div class="form-group required">
-                                        <label for="">Dist. Name :</label>
-                                        <input type="text" name="dist_name" value="{{ old('dist_name') }}" class="form-control" id="" placeholder="Enter Dist Name">
-                                        <span class="error text-danger pull-left"> {{ $errors->first('dist_name') }} </span>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-sm-6">
-                                    <div class="form-group required">
-                                        <label for="">Block. Name : </label>
-                                        <input type="text" name="block_name" class="form-control" value="{{ old('block_name') }}" id="" placeholder="Enter Block Name">
-                                        <span class="error text-danger pull-left"> {{ $errors->first('block_name') }} </span>
-                                    </div>
-                                </div>
-                            </div>
                             <div class="row">
                                 <div class="col-md-6 col-sm-6">
                                     <div class="form-group required">
@@ -317,7 +287,7 @@
                                 </div>
                                 <div class="col-md-11 col-sm-11">
                                     DECLARATION: I herby acknowledge that i have read and agree with the relevant sales policies and regulations of
-                                    the "Cadzone-global" mentioned overleaf and otherwise. I will not plead ignorance to the NGO. Rules and Regulations.
+                                    the "Cadzone-global" mentioned overleaf and otherwise.
                                 </div>
                             </div>
                             <div class="row">
@@ -344,9 +314,16 @@
                         <br/>
                         <br/>
                         <br/>
-                    </div>
                 </div>
-             </div>
+
+                <div class="col-md-4">
+                <h4 style="text-align: center; text-decoration: underline;"> Or send your resume on </h4>
+                <p>
+                    Email: hr@cadzone-global.com
+                </p>
+                </div>
+                </div>
+            </div>
         </div>
         </section>
     <!--address-end-->

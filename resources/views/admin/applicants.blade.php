@@ -14,8 +14,6 @@
                     <tr>
                         <th>Id</th>
                         <th>Name</th>
-                        <th>Dist</th>
-                        <th>Block</th>
                         <th>Email</th>
                         <th>Contact</th>
                         <th>Submitted</th>
@@ -25,8 +23,6 @@
                     <tr>
                         <th>Id</th>
                         <th>Name</th>
-                        <th>Dist</th>
-                        <th>Block</th>
                         <th>Email</th>
                         <th>Contact</th>
                         <th>Submitted</th>
@@ -36,11 +32,9 @@
                     @foreach($applications as $application)
                     <tr>
                         <td><a href="{{ url('/admin/applicants/'.$application->id.'/details') }}">{{ $application->application_id }}</a></td>
-                        <td>{{ $application->user->name }}</td>
-                        <td>{{ $application->dist_name }}</td>
-                        <td>{{ $application->block_name}}</td>
-                        <td>{{ $application->user->email }}</td>
-                        <td>{{ $application->user->present_phone. ', ' . $application->user->perma_number  }}</td>
+                        <td>{{ $application->name }}</td>
+                        <td>{{ $application->email }}</td>
+                        <td>{{ $application->present_phone. ', ' . $application->perma_number  }}</td>
                         <td>{{ $application->created_at->diffForHumans() .', '. date_format($application->created_at,"Y/m/d H:i:s a") }}</td>
                     </tr>
                     @endforeach

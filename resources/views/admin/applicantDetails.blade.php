@@ -12,7 +12,7 @@
             <div class="row">
                 <div class="col-sm-2">
                     <div>
-                        <img class="profile" width="100%" src="{{ url('public/images/'.$details->image) }}" alt="{{ $details->user->name }}">
+                        <img class="profile" width="100%" src="{{ url('public/images/'.$details->image) }}" alt="{{ $details->name }}">
                     </div>
                 </div>
                 <div class="col-lg-5 col-md-5 intro-first intro-sec">
@@ -23,21 +23,13 @@
                             <td class="day_label">Apply For: </td>
                             <td class="day_value"> {{ $details->apply_for }}</td>
                         </tr>
-                        <tr class="opened_1">
-                            <td class="day_label">Dist Name: </td>
-                            <td class="day_value"> {{ $details->dist_name }} </td>
-                        </tr>
-                        <tr class="opened_1">
-                            <td class="day_label">Block Name: </td>
-                            <td class="day_value">{{ $details->block_name }}</td>
+                        <tr class="opened">
+                            <td class="day_label">Name:</td>
+                            <td class="day_value"> {{ $details->name }} </td>
                         </tr>
                         <tr class="opened">
                             <td class="day_label">Name:</td>
-                            <td class="day_value"> {{ $details->user->name }} </td>
-                        </tr>
-                        <tr class="opened">
-                            <td class="day_label">Name:</td>
-                            <td class="day_value"> {{ $details->user->email }} </td>
+                            <td class="day_value"> {{ $details->email }} </td>
                         </tr>
                         <tr class="opened">
                             <td class="day_label">DOB:</td>
@@ -49,11 +41,11 @@
                         </tr>
                         <tr class="opened">
                             <td class="day_label">Email:</td>
-                            <td class="day_value"> {{ $details->user->email }} </td>
+                            <td class="day_value"> {{ $details->email }} </td>
                         </tr>
                         <tr class="opened">
                             <td class="day_label">Contact Number :</td>
-                            <td class="day_value"> {{ $details->user->present_phone.', '. $details->user->perma_number }} </td>
+                            <td class="day_value"> {{ $details->present_phone.', '. $details->perma_number }} </td>
                         </tr>
                         <tr class="opened">
                             <td class="day_label">Father/Husband Name :</td>

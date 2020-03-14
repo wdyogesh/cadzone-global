@@ -33,6 +33,6 @@ class AdminController extends Controller
             'compnies' => 4,
         ];
         $newsboard = NewsBoards::orderBy('id', 'desc')->first();
-        return view('admin.dashboard', compact('count', 'newsboard'));
+        return view('Admin/dashboard', compact('count', 'newsboard'));
     }
 }
