@@ -137,16 +137,16 @@ Route::prefix('/hr')->group(function () {
     Route::get('/work-history', 'Hr\WorkHistoryController@index')->name('workHistory.index');
 
     Route::prefix('/Employee')->group(function () {
-        Route::get('/', 'Hr\EmployeeController@index')->name('employee.list');
-        Route::get('/hr', 'Hr\EmployeeController@hr')->name('employee.hrList');
-        Route::get('/create', 'Hr\EmployeeController@create')->name('employee.create');
-        Route::post('/store', 'Hr\EmployeeController@store')->name('employee.store');
-        Route::get('/{employee}/show', 'Hr\EmployeeController@show')->name('employee.show');
-        Route::get('/{employee}/edit', 'Hr\EmployeeController@edit')->name('employee.edit');
-        Route::get('/{employee}/upload-docs', 'Hr\EmployeeController@uploadDoc')->name('employee.uploadDoc');
-        Route::put('/{employee}/update', 'Hr\EmployeeController@update')->name('employee.update');
-        Route::post('/{employee}/doUpload', 'Hr\EmployeeController@doUpload')->name('employee.doUpload');
-        Route::get('/{employee}/delete', 'Hr\EmployeeController@destroy')->name('employee.delete');
+        Route::get('/', 'Hr\EmployeeController@index')->name('hr.employee.list');
+        Route::get('/hr', 'Hr\EmployeeController@hr')->name('hr.employee.hrList');
+        Route::get('/create', 'Hr\EmployeeController@create')->name('hr.employee.create');
+        Route::post('/store', 'Hr\EmployeeController@store')->name('hr.employee.store');
+        Route::get('/{employee}/show', 'Hr\EmployeeController@show')->name('hr.employee.show');
+        Route::get('/{employee}/edit', 'Hr\EmployeeController@edit')->name('hr.employee.edit');
+        Route::get('/{employee}/upload-docs', 'Hr\EmployeeController@uploadDoc')->name('hr.employee.uploadDoc');
+        Route::put('/{employee}/update', 'Hr\EmployeeController@update')->name('hr.employee.update');
+        Route::post('/{employee}/doUpload', 'Hr\EmployeeController@doUpload')->name('hr.employee.doUpload');
+        Route::get('/{employee}/delete', 'Hr\EmployeeController@destroy')->name('hr.employee.delete');
     });
 
     Route::prefix('/newsboard')->group(function () {
