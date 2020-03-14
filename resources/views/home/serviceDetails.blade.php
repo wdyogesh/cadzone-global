@@ -58,7 +58,7 @@
                                 @endforeach
                             </ul>
                         </aside>
-                        <aside class="widget">
+                        {{-- <aside class="widget">
                             <h3 class="widget_title">Our Brochures</h3>
                             <div class="allBrouchers">
                                 <div class="singleBrou">
@@ -77,36 +77,7 @@
                                     <a href="#" target="_blank">Download</a>
                                 </div>
                             </div>
-                        </aside>
-                        <aside class="widget">
-                            <h3 class="widget_title">Latest Works</h3>
-                            <div class="allLatestWorks">
-                                <div class="ltworks">
-                                    <h3><a href="#">Thread Grinding Hydrolic Pand</a></h3>
-                                    <p><a href="#">Constructions</a></p>
-                                </div>
-                                <div class="ltworks">
-                                    <h3><a href="#">Thread Grinding Hydrolic Pand</a></h3>
-                                    <p><a href="#">Industrials</a></p>
-                                </div>
-                                <div class="ltworks">
-                                    <h3><a href="#">Thread Grinding Hydrolic Pand</a></h3>
-                                    <p><a href="#">Hospitals</a></p>
-                                </div>
-                            </div>
-                        </aside>
-                        <aside class="widget havqueswidget">
-                            <h3 class="widget_title">Have any Questions?</h3>
-                            <div class="hqw_content">
-                                <p>
-                                    Please feel free to contact us. We will
-                                    get back to you with 2 business days.
-                                    Or just call us now.
-                                </p>
-                                <h5>Call Us: +(321) 45 678 901 & 902</h5>
-                                <h5>Mail: info@webmail.com</h5>
-                            </div>
-                        </aside>
+                        </aside> --}}
                     </div>
                 </div>
             </div>
