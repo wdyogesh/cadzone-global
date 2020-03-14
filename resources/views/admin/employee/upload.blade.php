@@ -83,7 +83,7 @@
                     </div>
                     <div class="col-md-4">
                         @isset($uploadDocuments->bank_passbook)
-                            <img class="profile" width="60%" src="{{ url('user_documents/'.$uploadDocuments->bank_passbook) }}" alt="Bank Passbook">
+                            <img class="profile" width="60%" src="{{ url('public/user_documents/'.$uploadDocuments->bank_passbook) }}" alt="Bank Passbook">
                         @endisset
                     </div>
                 </div>
