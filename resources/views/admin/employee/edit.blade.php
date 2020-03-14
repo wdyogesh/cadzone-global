@@ -345,7 +345,7 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <img class="profile" width="60%" src="{{ url('user_images/'.$employee->user['images']) }}" alt="{{ $employee->user['name'] }}">
+                        <img class="profile" width="60%" src="{{ url('public/user_images/'.$employee->user['images']) }}" alt="{{ $employee->user['name'] }}">
                     </div>
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>

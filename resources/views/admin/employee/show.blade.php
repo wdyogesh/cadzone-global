@@ -328,7 +328,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-6" style="margin-top: 20px">
-                       <img class="profile" width="60%" src="{{ url('/public/user_images/'.$employee->user['images']) }}" alt="{{ $employee->user['name'] }}" />
+                       <img class="profile" width="60%" src="{{ url('public/user_images/'.$employee->user['images']) }}" alt="{{ $employee->user['name'] }}" />
                     </div>
                 </div>
                 <hr>
