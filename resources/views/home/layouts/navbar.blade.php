@@ -13,7 +13,7 @@
                             <li class="{{ Request::is('about-us') ? 'current-menu-item' : '' }}">
                                 <a href="{{ url('about-us') }}">About</a>
                             </li>
-                                <li class="{{ Request::is('about-us') ? 'current-menu-item' : '' }} menu-item-has-children">
+                                <li class="{{ Request::is('our-services') ? 'current-menu-item' : '' }} menu-item-has-children">
                                 <a href="{{ url('/our-services') }}">Services</a>
                                     {{-- <ul class="sub_menu">
                                         <li class=" menu-item-has-children">
