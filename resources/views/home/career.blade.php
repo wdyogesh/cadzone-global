@@ -6,7 +6,7 @@
     <section class="page_banner">
             <div class="container">
                 <div class="col-xl-12 text-center">
-                    <h2>Contact</h2>
+                    <h2>Career</h2>
                     <div class="breadcrumbs">
                     <a href="{{ url('/') }}">Home</a><i>|</i><span>Careers</span>
                     </div>
