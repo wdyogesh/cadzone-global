@@ -9,7 +9,7 @@
                 <div class="col-xl-12 text-center">
                     <h2>Our Service</h2>
                     <div class="breadcrumbs">
-                        <a href="index.html">Home</a><i>|</i><span>Services</span>
+                    <a href="{{ url('/') }}">Home</a><i>|</i><span>Services</span>
                     </div>
                 </div>
             </div>
