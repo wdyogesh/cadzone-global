@@ -9,7 +9,7 @@
                 <div class="col-xl-12 text-center">
                     <h2>Service Details</h2>
                     <div class="breadcrumbs">
-                        <a href="index.html">Home</a><i>|</i><span>Service Details</span>
+                    <a href="{{'/'}}">Home</a><i>|</i><span>Service Details</span>
                     </div>
                 </div>
             </div>
@@ -27,7 +27,7 @@
                                 <div class="row">
                                     <div class="col-lg-12 col-md-12">
                                         <div class="sda_gl">
-                                            <img src="{{'/service_images/'.$service->image_1}}" alt="Servcie Image">
+                                            <img src="{{ public_path('/service_images/'.$service->image_1) }}" alt="Servcie Image">
                                         </div>
                                     </div>
                                     <div class="col-lg-6 col-md-6">
