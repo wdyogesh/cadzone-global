@@ -34,6 +34,8 @@ Route::get('/our-services/{services}', 'HomeController@serviceDetails')->name('s
 
 Route::get('/news', 'HomeController@news');
 
+Route::get('/career', 'HomeController@career');
+
 Route::get('/news-details/{news}', 'HomeController@newsDetails')->name('news.details');
 
 Route::get('/projects', 'HomeController@project');

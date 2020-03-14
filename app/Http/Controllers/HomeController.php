@@ -25,6 +25,11 @@ class HomeController extends Controller
         return view('home.contact');
     }
 
+    public function career()
+    {
+        return view('home.career');
+    }
+
     public function service()
     {
         $services = Services::all();
