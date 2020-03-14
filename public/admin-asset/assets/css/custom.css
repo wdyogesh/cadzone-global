@@ -1,0 +1,17 @@
+.contact-bottom input[type="text"]:nth-child(1), .contact-bottom input[type="text"]:nth-child(2) {
+    width: 100%;
+}
+
+.required label {
+    font-weight: bold;
+}
+.required label:after {
+    color: #e32;
+    content: ' *';
+    display:inline;
+}
+
+.profile {
+    border-radius: 10px;
+    border: 5px solid;
+}
