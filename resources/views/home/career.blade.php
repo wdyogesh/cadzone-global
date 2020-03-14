@@ -8,48 +8,15 @@
                 <div class="col-xl-12 text-center">
                     <h2>Contact</h2>
                     <div class="breadcrumbs">
-                        <a href="index.html">Home</a><i>|</i><span>Contact Us</span>
+                    <a href="{{ url('/') }}">Home</a><i>|</i><span>Careers</span>
                     </div>
                 </div>
             </div>
         </section>
-
         <section class="commonSection pdb90">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-4 col-md-6 col-lg-5">
-                        <div class="icon_box_05 ib5_left">
-                            <i class="fal fa-map-marker-alt"></i>
-                            <div class="ib5_inner">
-                                <h3>Office Location</h3>
-                                <p>
-                                Reg. Off : H-9, Purvanchal, Phase-1, Awadhpuri,<br/> Bhopal, Madhya Pradesh, India, Pin-462022
-                                </p>
-
-                            </div>
-                        </div>
-                        <div class="icon_box_05 ib5_left">
-                            <i class="fal fa-clock"></i>
-                            <div class="ib5_inner">
-                                <h3>Office Hours</h3>
-                                <p>
-                                    Mon - Fri: 09:00am to 07.00pm <span>Sat - Sun: Off Day</span>
-                                </p>
-
-                            </div>
-                        </div>
-                        <div class="icon_box_05 ib5_left">
-                            <i class="fal fa-headset"></i>
-                            <div class="ib5_inner">
-                                <h3>Quick Contact</h3>
-                                <p>
-                                (+91) 73001 54111 <br/>sales@cadzone-global.com
-                                </p>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-8 col-md-6 col-lg-7 pdl45">
+                    <div class="col-xl-12 col-md-6 col-lg-12 pdl45">
                         <div class="row">
                             <div class="col-xl-12 text-left">
                                 <h6 class="sub_title dark_sub_title ">Get In Touch</h6>
@@ -110,17 +77,6 @@
                                     <input type="submit" value="Send Message"/>
                                 </div>
                             </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="googleMapSection noMarginTop">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-xl-12 noPadding">
-                        <div class="gmap">
-                            <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=new%20yourk&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                         </div>
                     </div>
                 </div>

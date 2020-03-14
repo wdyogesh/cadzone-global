@@ -8,7 +8,7 @@
                 <div class="col-xl-12 text-center">
                     <h2>Contact</h2>
                     <div class="breadcrumbs">
-                        <a href="index.html">Home</a><i>|</i><span>Contact Us</span>
+                    <a href="{{ url('/') }}">Home</a><i>|</i><span>Contact Us</span>
                     </div>
                 </div>
             </div>
