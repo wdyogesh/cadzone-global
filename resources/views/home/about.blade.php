@@ -1,4 +1,4 @@
-@extends('Home/layouts/app')
+@extends('home.layouts.app')
 
 @section('title','About')
 @section('content')
@@ -34,37 +34,37 @@
                     <div class="col-xl-6 col-lg-6 noPaddingRight">
                         <div class="aboutDescs">
                             <h5 class="sub_title">About Cadzone</h5>
-                           
+
                             <p class="ind_lead">Established in 2001 Around 75+ Employees
                                  09+ International ClientsLocated in Bhopal, India.
                             </p>
                             <p>
-                            CADZONE is a global leading service provider of engineering 
+                            CADZONE is a global leading service provider of engineering
                             solutions for advanced technology products in the hydro generator,
-                             hydro turbine, gas turbine, steam turbine, heat exchanger, traction 
-                             motor, transformer, switchgear, control panel, all types of lifting 
-                             equipment, shop/site erection devices, piping, wiring, instrumentation 
+                             hydro turbine, gas turbine, steam turbine, heat exchanger, traction
+                             motor, transformer, switchgear, control panel, all types of lifting
+                             equipment, shop/site erection devices, piping, wiring, instrumentation
                              and auxiliary plants.
                              we also undertake all types of Renovation, Modernization &
-                              Up-gradation (RMU) projects in the above mentioned domains. 
-                              we have a specialized team for hydro generator engineering. 
+                              Up-gradation (RMU) projects in the above mentioned domains.
+                              we have a specialized team for hydro generator engineering.
                             </p>
                             <p>
-                             CADZONE is pioneer in developing a cost effective engineered 
+                             CADZONE is pioneer in developing a cost effective engineered
                              products and solutions, which we achieve by leveraging our
-                              technology strengths, global resources and robust processes. 
+                              technology strengths, global resources and robust processes.
                               employed 75 plus engineers to support clients in engineering,
                                project procurement support, quality and manufacturing.
-                              we also assist in bridging the gap between quality and cost 
+                              we also assist in bridging the gap between quality and cost
                               by effectively utilizing resources.
                             </p>
                             <p>
-                              CADZONE was established in 2001 in Bhopal, India. The company 
-                              currently has office in Bhopal and Bangalore. Keeping in mind 
+                              CADZONE was established in 2001 in Bhopal, India. The company
+                              currently has office in Bhopal and Bangalore. Keeping in mind
                               the needs of current and future customers, CADZONE plans to
                                continuously expands its services.
                             </p>
-                          
+
                         </div>
                     </div>
                 </div>
@@ -163,5 +163,5 @@
                 </div>
             </div>
         </section>
-    
+
 @endsection

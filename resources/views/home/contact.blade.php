@@ -1,4 +1,4 @@
-@extends('Home/layouts/app')
+@extends('home.layouts.app')
 
 @section('title','About')
 @section('content')
@@ -25,7 +25,7 @@
                                 <p>
                                 Reg. Off : H-9, Purvanchal, Phase-1, Awadhpuri,<br/> Bhopal, Madhya Pradesh, India, Pin-462022
                                 </p>
-                              
+
                             </div>
                         </div>
                         <div class="icon_box_05 ib5_left">
@@ -35,7 +35,7 @@
                                 <p>
                                     Mon - Fri: 09:00am to 07.00pm <span>Sat - Sun: Off Day</span>
                                 </p>
-                               
+
                             </div>
                         </div>
                         <div class="icon_box_05 ib5_left">
@@ -45,7 +45,7 @@
                                 <p>
                                 (+91) 73001 54111 <br/>sales@cadzone-global.com
                                 </p>
-                               
+
                             </div>
                         </div>
                     </div>
