@@ -89,7 +89,7 @@
                                     </ul>
                                 </li> --}}
                                  <li class="{{ Request::is('career') ? 'current-menu-item' : '' }} menu-item-has-children">
-                                    <a href="/career">Career</a>
+                                    <a href="/career">Careers</a>
                                 </li>
                                 <li class="{{ Request::is('contact-us') ? 'current-menu-item' : '' }} menu-item-has-children">
                                     <a href="/contact-us">Contact</a>

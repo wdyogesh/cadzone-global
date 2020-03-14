@@ -1,6 +1,6 @@
 @extends('home.layouts.app')
 
-@section('title','About')
+@section('title','Contact Us')
 @section('content')
     <!--contact-starts-->
     <section class="page_banner">
