@@ -108,8 +108,6 @@
                         <div class="top_social text-right">
                             <a href="#"><i class="fab fa-facebook-f"></i></a>
                             <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-behance"></i></a>
-                            <a href="#"><i class="fab fa-pinterest"></i></a>
                             <a href="#"><i class="fab fa-youtube"></i></a>
                         </div>
                     </div>
