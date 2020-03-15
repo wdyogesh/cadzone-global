@@ -8,9 +8,7 @@
                                 <p>
                                     Established in 2001 Around 75+ Employees 09+ International ClientsLocated in Bhopal, India.
                                     CADZONE is a global leading service provider of engineering solutions for advanced technology
-                                    products in the hydro generator, hydro turbine, gas turbine,
-                                    steam turbine, heat exchanger, traction motor, transformer, switchgear, control panel,
-                                    all types of lifting equipment, shop/site erection devices, piping,  wiring, instrumentation and auxiliary plants.
+                                    products in the hydro generator, hydro turbine....
                                 </p>
                                 <div class="caller">
                                     <i class="fal fa-headphones"></i>
@@ -33,7 +31,29 @@
                             </ul>
                         </aside>
                     </div>
-                    <div class="col-xl-4 col-md-6 col-lg-4">
+                    <div class="col-xl-4 col-md-6 col-lg-4 pdl65">
+                        <aside class="widget">
+                            <h3 class="widget_title">Our Services<span>.</span></h3>
+                            <div class="recentServices">
+                                <div class="serviceItem clearfix">
+                                    <img class="float-left" src="/home/images/widget/1.jpg" alt=""/>
+                                    <h5><a href="#">Lorem ipsum dolor sit am et, consectetur.</a></h5>
+                                    <span>14 Jnauary, 2019</span>
+                                </div>
+                                <div class="serviceItem clearfix">
+                                    <img class="float-left" src="/home/images/widget/2.jpg" alt=""/>
+                                    <h5><a href="#">Lorem ipsum dolor sit am et, consectetur.</a></h5>
+                                    <span>19 February, 2019</span>
+                                </div>
+                                <div class="serviceItem clearfix">
+                                    <img class="float-left" src="/home/images/widget/3.jpg" alt=""/>
+                                    <h5><a href="#">Lorem ipsum dolor sit am et, consectetur.</a></h5>
+                                    <span>14 July, 2018</span>
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                    <div class="col-xl-3 col-md-6 col-lg-3">
                         <aside class="widget subscribe_widget">
                             <h3 class="widget_title">Subscribe Now<span>.</span></h3>
                             <div class="subscribForm">
