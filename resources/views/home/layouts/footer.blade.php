@@ -1,7 +1,7 @@
 <footer class="footer_01">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-3 col-md-6 col-lg-3 noPaddingRight">
+                    <div class="col-xl-4 col-md-6 col-lg-4 noPaddingRight">
                         <aside class="widget">
                             <div class="about_widget">
                                 <a href="index.html"><img src="/home/images/cadzone.png" alt=""/></a>
@@ -31,28 +31,6 @@
                             </ul>
                         </aside>
                     </div>
-                    <div class="col-xl-4 col-md-6 col-lg-4 pdl65">
-                        <aside class="widget">
-                            <h3 class="widget_title">Our Services<span>.</span></h3>
-                            <div class="recentServices">
-                                <div class="serviceItem clearfix">
-                                    <img class="float-left" src="/home/images/widget/1.jpg" alt=""/>
-                                    <h5><a href="#">Lorem ipsum dolor sit am et, consectetur.</a></h5>
-                                    <span>14 Jnauary, 2019</span>
-                                </div>
-                                <div class="serviceItem clearfix">
-                                    <img class="float-left" src="/home/images/widget/2.jpg" alt=""/>
-                                    <h5><a href="#">Lorem ipsum dolor sit am et, consectetur.</a></h5>
-                                    <span>19 February, 2019</span>
-                                </div>
-                                <div class="serviceItem clearfix">
-                                    <img class="float-left" src="/home/images/widget/3.jpg" alt=""/>
-                                    <h5><a href="#">Lorem ipsum dolor sit am et, consectetur.</a></h5>
-                                    <span>14 July, 2018</span>
-                                </div>
-                            </div>
-                        </aside>
-                    </div>
                     <div class="col-xl-3 col-md-6 col-lg-3">
                         <aside class="widget subscribe_widget">
                             <h3 class="widget_title">Subscribe Now<span>.</span></h3>
@@ -66,9 +44,9 @@
                         <aside class="widget footer_social">
                             <h3 class="widget_title">Get More Here<span>.</span></h3>
                             <div class="socials">
-                                <a href="#"><i class="fab fa-facebook-f"></i></a><a href="#"><i class="fab fa-twitter"></i>
-                                </a><a href="#"><i class="fab fa-behance"></i></a><a href="#"><i class="fab fa-youtube"></i>
-                                </a><a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-youtube"></i></a>
                             </div>
                         </aside>
                     </div>
