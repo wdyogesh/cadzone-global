@@ -93,7 +93,8 @@
                                  data-paddingbottom="[0,0,0,0]"
                                  data-paddingleft="[0,0,0,0]"
 
-                                 style="z-index: 5; word-break: break-all;  white-space: nowrap; text-transform: none;">We provide feasible technical<br> solutions on all forntiers.</div>
+                                 style="z-index: 5; word-break: break-all;  white-space: nowrap; text-transform: none;">We provide feasible technical<br>
+                                 solutions on all forntiers.</div>
                             <div class="tp-caption  tp-resizeme"
                                  data-x="['left','center','center','center']"
                                  data-hoffset="['0','0','0','0']"
@@ -238,7 +239,7 @@
                                  data-paddingbottom="[0,0,0,0]"
                                  data-paddingleft="[0,0,0,0]"
 
-                                 style="z-index: 5; white-space: nowrap; text-transform: none;"><a href="#" class="ind_btn"><span>Get A Quote</span></a></div>
+                        style="z-index: 5; white-space: nowrap; text-transform: none;"><a href="{{ url('/contact-us') }}" class="ind_btn"><span>Get A Quote</span></a></div>
                         </li>
                         <li data-index="rs-3047" data-transition="random" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-thumb="/home/images/slider/t_3.jpg"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off"  data-title="Intro" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                             <img src="/home/images/slider/3.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
@@ -327,7 +328,8 @@
                                  data-paddingbottom="[0,0,0,0]"
                                  data-paddingleft="[0,0,0,0]"
 
-                                 style="z-index: 5; word-break: break-all; white-space: nowrap; text-transform: none;">We provide feasible technical<br> solutions on all forntiers.</div>
+                                 style="z-index: 5; word-break: break-all; white-space: nowrap; text-transform: none;">We provide
+                                 feasible technical<br> solutions on all forntiers.</div>
                             <div class="tp-caption  tp-resizeme"
                                  data-x="['left','center','center','center']"
                                  data-hoffset="['0','0','0','0']"
@@ -355,7 +357,7 @@
                                  data-paddingbottom="[0,0,0,0]"
                                  data-paddingleft="[0,0,0,0]"
 
-                                 style="z-index: 5; white-space: nowrap; text-transform: none;"><a href="#" class="ind_btn"><span>Get A Quote</span></a></div>
+                                 style="z-index: 5; white-space: nowrap; text-transform: none;"><a href="{{ url('/contact-us') }}" class="ind_btn"><span>Get A Quote</span></a></div>
                         </li>
                     </ul>
                 </div>
@@ -662,7 +664,7 @@
                                 voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
                                 non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                             </p>
-                            <a href="#" class="ind_btn"><span>get a quote</span></a>
+                            <a href="{{ url('/contact-us') }}" class="ind_btn"><span>get a quote</span></a>
                         </div>
                     </div>
                 </div>
