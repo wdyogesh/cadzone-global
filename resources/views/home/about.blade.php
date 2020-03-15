@@ -71,7 +71,7 @@
             </div>
         </section>
 
-        <section class="skillSections">
+        {{-- <section class="skillSections">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-xl-6">
@@ -110,7 +110,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
 
         <section class="commonSection">
             <div class="container">
@@ -120,7 +120,7 @@
                         <h2 class="sec_title with_bar">Our Members</h2>
                     </div>
                 </div>
-                <div class="row">
+                {{-- <div class="row">
                     <div class="col-xl-12">
                         <div class="teamslider2 owl-carousel">
                             <div class="singleTeam02">
@@ -160,7 +160,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </section>
 
