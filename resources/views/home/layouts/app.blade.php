@@ -73,7 +73,7 @@
                     <div class="col-xl-8 col-lg-8 col-md-9">
                         <div class="topbar_right text-right">
                             <div class="topbar_element info_element">
-                                <i class="fa fa-envelope"></i>
+                                {{-- <i class="fa fa-envelope"></i> --}}
                                 <h5>Email Address</h5>
                                 <p><a href="mailto:sales@cadzone-global.comm">sales@cadzone-global.com</a></p>
                             </div>
@@ -85,9 +85,9 @@
                             <div class="topbar_element search_element">
                                 <a href="/login" class="btn btn btn-primary-custom btn-sm" role="button" aria-pressed="true">LOGIN</a>
                             </div>
-                            <div class="topbar_element settings_bar">
+                            {{-- <div class="topbar_element settings_bar">
                                 <a href="#" class="hamburger" id="open-overlay-nav"><i class="fal fa-bars"></i></a>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                 </div>
