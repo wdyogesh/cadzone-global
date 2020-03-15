@@ -1,7 +1,7 @@
 <footer class="footer_01">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-4 col-md-6 col-lg-4 noPaddingRight">
+                    <div class="col-xl-6 col-md-7 col-lg-6 noPaddingRight">
                         <aside class="widget">
                             <div class="about_widget">
                                 <a href="index.html"><img src="/home/images/cadzone.png" alt=""/></a>
