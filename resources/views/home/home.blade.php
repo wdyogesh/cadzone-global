@@ -643,46 +643,14 @@
             </div>
         </section>
 
-        <section class="whyChooseUs">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-xl-5 col-lg-6 noPadding">
-                        <div class="video_02 withBGImg">
-                            <a class="videoPlay1 videoPlayer" href="https://player.vimeo.com/video/78393586"><i class="fas fa-play"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-xl-7 col-lg-6 noPaddingRight">
-                        <div class="whyChooseUsContent">
-                            <h6 class="sub_title">why choose us</h6>
-                            <h2 class="sec_title dark_sec_title">
-                                <span>We Offer A Great Variety Of Products & Services.</span>
-                            </h2>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamc
-                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                                non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                            <a href="{{ url('/contact-us') }}" class="ind_btn"><span>get a quote</span></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <section class="commonSection testimonialSection">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-4 col-lg-4 noPaddingRight">
                         <h6 class="sub_title ">Testimonials</h6>
-                        <h2 class="sec_title">
-                            <span>Happy Clients Says About Us</span>
-                        </h2>
                         <p class="ind_lead">Make your dream with us</p>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp or incididunt ut labore et dolore magna
-                            aliqua. Ut enim ad minim v eniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+                            We values our client they are very importent for us, some of them given us his feedback, check here customer’s feedback.
                         </p>
                     </div>
                     <div class="col-xl-8 col-lg-8 pdl40">
@@ -775,9 +743,6 @@
                 <div class="row">
                     <div class="col-xl-12 text-center">
                         <h6 class="sub_title light_sub_title">Our Clients</h6>
-                        <h2 class="sec_title with_bar light_sec_title">
-                            <span>Who Love Us?</span>
-                        </h2>
                     </div>
                 </div>
                 <div class="row">
