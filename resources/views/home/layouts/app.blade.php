@@ -101,7 +101,7 @@
         <!-- /Overlay Menu -->
         @yield('content')
         <!-- Footer -->
-        @include('home.layouts.footer')
+        {{-- @include('home.layouts.footer') --}}
 
         <!-- Footer End -->
         <section class="copyright_section">
