@@ -35,8 +35,8 @@
                         <div class="aboutDescs">
                             <h5 class="sub_title">About Cadzone</h5>
 
-                            <p class="ind_lead">Established in 2001 Around 75+ Employees
-                                 09+ International ClientsLocated in Bhopal, India.
+                            <p class="ind_lead">Established in 2001 Around 75+, Employees
+                                 09+, International ClientsLocated in Bhopal, India.
                             </p>
                             <p>
                             CADZONE is a global leading service provider of engineering

@@ -643,7 +643,7 @@
             </div>
         </section>
 
-        <section class="commonSection testimonialSection">
+        {{-- <section class="commonSection testimonialSection">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-4 col-lg-4 noPaddingRight">
@@ -736,7 +736,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
 
         <section class="commonSection clientSecion">
             <div class="container">
