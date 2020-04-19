@@ -35,7 +35,7 @@
                                  data-paddingbottom="[0,0,0,0]"
                                  data-paddingleft="[0,0,0,0]"
 
-                                 style="z-index: 5; white-space: nowrap; text-transform: uppercase;">Power industry</div>
+                                 style="z-index: 5; white-space: nowrap; text-transform: uppercase;">Power Plant</div>
 
                             <div class="tp-caption barlow tp-resizeme rs-parallaxlevel-3 elemnt_3"
                                  data-x="['left', 'left', 'left', 'left']"
@@ -65,7 +65,7 @@
                                  data-paddingbottom="[0,0,0,0]"
                                  data-paddingleft="[0,0,0,0]"
 
-                                 style="z-index: 8; white-space: normal;">We Are Integrated Engineering Ltd.</div>
+                                 style="z-index: 8; white-space: normal;">An Engineering And Consulting Company</div>
                             <div class="tp-caption tp-resizeme textRes"
                                  data-x="['left','center','center','center']"
                                  data-hoffset="['0','0','0','0']"
@@ -93,8 +93,7 @@
                                  data-paddingbottom="[0,0,0,0]"
                                  data-paddingleft="[0,0,0,0]"
 
-                                 style="z-index: 5; word-break: break-all;  white-space: nowrap; text-transform: none;">We provide feasible technical<br>
-                                 solutions on all forntiers.</div>
+                                 style="z-index: 5; word-break: break-all;  white-space: nowrap; text-transform: none;"></div>
                             <div class="tp-caption  tp-resizeme"
                                  data-x="['left','center','center','center']"
                                  data-hoffset="['0','0','0','0']"
@@ -122,7 +121,7 @@
                                  data-paddingbottom="[0,0,0,0]"
                                  data-paddingleft="[0,0,0,0]"
 
-                                 style="z-index: 5; white-space: nowrap; text-transform: none;"><a href="{{ url('/contact-us') }}" class="ind_btn"><span>Get A Quote</span></a></div>
+                                 style="z-index: 5; white-space: nowrap; text-transform: none;"><a href="{{ url('/contact-us') }}" class="ind_btn"><span>Contact Us</span></a></div>
                         </li>
                         <li data-index="rs-3046" data-transition="random" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-thumb="/home/images/slider/t_2.jpg"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off"  data-title="Intro" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                             <img src="/home/images/slider/2.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
@@ -153,7 +152,7 @@
                                  data-paddingbottom="[0,0,0,0]"
                                  data-paddingleft="[0,0,0,0]"
 
-                                 style="z-index: 5; white-space: nowrap; text-transform: uppercase;">Power industry</div>
+                                 style="z-index: 5; white-space: nowrap; text-transform: uppercase;">It industry</div>
 
                             <div class="tp-caption barlow tp-resizeme rs-parallaxlevel-3 elemnt_3"
                                  data-x="['left', 'left', 'left', 'left']"
@@ -183,7 +182,7 @@
                                  data-paddingbottom="[0,0,0,0]"
                                  data-paddingleft="[0,0,0,0]"
 
-                                 style="z-index: 8; white-space: normal;">We Are Integrated Engineering Ltd.</div>
+                                 style="z-index: 8; white-space: normal;">An Engineering Design Automation</div>
                             <div class="tp-caption  tp-resizeme textRes"
                                  data-x="['left','center','center','center']"
                                  data-hoffset="['0','0','0','0']"
@@ -211,7 +210,7 @@
                                  data-paddingbottom="[0,0,0,0]"
                                  data-paddingleft="[0,0,0,0]"
 
-                                 style="z-index: 5; word-break: break-all; white-space: nowrap; text-transform: none;">We provide feasible technical<br> solutions on all forntiers.</div>
+                                 style="z-index: 5; word-break: break-all; white-space: nowrap; text-transform: none;"></div>
                             <div class="tp-caption  tp-resizeme"
                                  data-x="['left','center','center','center']"
                                  data-hoffset="['0','0','0','0']"
@@ -239,7 +238,9 @@
                                  data-paddingbottom="[0,0,0,0]"
                                  data-paddingleft="[0,0,0,0]"
 
-                        style="z-index: 5; white-space: nowrap; text-transform: none;"><a href="{{ url('/contact-us') }}" class="ind_btn"><span>Get A Quote</span></a></div>
+                        style="z-index: 5; white-space: nowrap; text-transform: none;"><a href="{{ url('/contact-us') }}" class="ind_btn">
+                            <span>Contact Us</span>
+                        </a></div>
                         </li>
                         <li data-index="rs-3047" data-transition="random" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-thumb="/home/images/slider/t_3.jpg"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off"  data-title="Intro" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                             <img src="/home/images/slider/3.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
@@ -270,7 +271,7 @@
                                  data-paddingbottom="[0,0,0,0]"
                                  data-paddingleft="[0,0,0,0]"
 
-                                 style="z-index: 5; white-space: nowrap; text-transform: uppercase;">Power industry</div>
+                                 style="z-index: 5; white-space: nowrap; text-transform: uppercase;">Corporate Training</div>
 
                             <div class="tp-caption barlow tp-resizeme rs-parallaxlevel-3 elemnt_3"
                                  data-x="['left', 'left', 'left', 'left']"
@@ -300,7 +301,7 @@
                                  data-paddingbottom="[0,0,0,0]"
                                  data-paddingleft="[0,0,0,0]"
 
-                                 style="z-index: 8; white-space: normal;">We Are Integrated Engineering Ltd.</div>
+                                 style="z-index: 8; white-space: normal;">An Engineering Trainer Company </div>
                             <div class="tp-caption  tp-resizeme textRes"
                                  data-x="['left','center','center','center']"
                                  data-hoffset="['0','0','0','0']"
@@ -328,8 +329,7 @@
                                  data-paddingbottom="[0,0,0,0]"
                                  data-paddingleft="[0,0,0,0]"
 
-                                 style="z-index: 5; word-break: break-all; white-space: nowrap; text-transform: none;">We provide
-                                 feasible technical<br> solutions on all forntiers.</div>
+                                 style="z-index: 5; word-break: break-all; white-space: nowrap; text-transform: none;"></div>
                             <div class="tp-caption  tp-resizeme"
                                  data-x="['left','center','center','center']"
                                  data-hoffset="['0','0','0','0']"
@@ -357,7 +357,9 @@
                                  data-paddingbottom="[0,0,0,0]"
                                  data-paddingleft="[0,0,0,0]"
 
-                                 style="z-index: 5; white-space: nowrap; text-transform: none;"><a href="{{ url('/contact-us') }}" class="ind_btn"><span>Get A Quote</span></a></div>
+                                 style="z-index: 5; white-space: nowrap; text-transform: none;"><a href="{{ url('/contact-us') }}" class="ind_btn">
+                                    <span>Contact Us</span>
+                                </a></div>
                         </li>
                     </ul>
                 </div>
@@ -369,10 +371,10 @@
                 <div class="row">
                     <div class="col-xl-6 col-lg-6 noPaddingRight">
                         <div class="video_01 mrm15 text-right">
-                            <img src="/home/images/home/1.jpg" alt=""/>
+                            <img src="/home/images/home/1.png" alt=""/>
                             <div class="vp">
                                 <img src="/home/images/home/2.jpg" alt=""/>
-                                <a class="videoPlayer" href="https://player.vimeo.com/video/78393586"><i class="fa fa-play"></i></a>
+                                <a class="videoPlayer" href="https://player.vimeo.com/video/409427323"><i class="fa fa-play"></i></a>
                             </div>
                         </div>
                     </div>
@@ -469,7 +471,7 @@
                     <div class="col-xl-12 text-center">
                         <h6 class="sub_title">Works</h6>
                         <h2 class="sec_title with_bar">
-                            <span>Case Study</span>
+                            <span> Our Engineering Portfolio</span>
                         </h2>
                     </div>
                 </div>
@@ -492,8 +494,7 @@
                         <div class="singlefolio">
                             <img src="/home/images/works/1.jpg" alt=""/>
                             <div class="folioHover">
-                                <p><a class="cate" href="#">Construction</a>, <a class="cate" href="#">Housing</a></p>
-                                <h4><a href="#">Mantabo Ball Industry</a></h4>
+                                <h4><a href="#">Hydro Generators/Motors</a></h4>
                             </div>
                         </div>
                     </div>
@@ -501,8 +502,8 @@
                         <div class="singlefolio">
                             <img src="/home/images/works/2.jpg" alt=""/>
                             <div class="folioHover">
-                                <p><a class="cate" href="#">Chemical</a>, <a class="cate" href="#">Garden</a></p>
-                                <h4><a href="#">Mantabo Ball Industry</a></h4>
+                                <p><a class="cate" href="#">Power</a>, <a class="cate" href="#">Plant</a></p>
+                                <h4><a href="#">Power Transformers</a></h4>
                             </div>
                         </div>
                     </div>
@@ -510,8 +511,8 @@
                         <div class="singlefolio">
                             <img src="/home/images/works/3.jpg" alt=""/>
                             <div class="folioHover">
-                                <p><a class="cate" href="#">Oil & Gas</a>, <a class="cate" href="#">Construction</a></p>
-                                <h4><a href="#">Mantabo Ball Industry</a></h4>
+                                <p><a class="cate" href="#">Steem</a>, <a class="cate" href="#">Factory</a></p>
+                                <h4><a href="#">Steam Generators</a></h4>
                             </div>
                         </div>
                     </div>
@@ -519,8 +520,8 @@
                         <div class="singlefolio">
                             <img src="/home/images/works/4.jpg" alt=""/>
                             <div class="folioHover">
-                                <p><a class="cate" href="#">Housing</a>, <a class="cate" href="#">Garden</a></p>
-                                <h4><a href="#">Mantabo Ball Industry</a></h4>
+                                <p><a class="cate" href="#">Hydrostatic</a>, <a class="cate" href="#">Bearings</a></p>
+                                <h4><a href="#">Hydrostatic and Hydrodynamic Bearings</a></h4>
                             </div>
                         </div>
                     </div>
@@ -528,8 +529,8 @@
                         <div class="singlefolio">
                             <img src="/home/images/works/5.jpg" alt=""/>
                             <div class="folioHover">
-                                <p><a class="cate" href="#">Construction</a>, <a class="cate" href="#">Oil & Gas</a></p>
-                                <h4><a href="#">Mantabo Ball Industry</a></h4>
+                                <p><a class="cate" href="#">Automobile</a>, <a class="cate" href="#">Automobile</a></p>
+                                <h4><a href="#">Automobile</a></h4>
                             </div>
                         </div>
                     </div>
@@ -537,8 +538,8 @@
                         <div class="singlefolio">
                             <img src="/home/images/works/6.jpg" alt=""/>
                             <div class="folioHover">
-                                <p><a class="cate" href="#">Chemicel</a>, <a class="cate" href="#">Housing</a></p>
-                                <h4><a href="#">Mantabo Ball Industry</a></h4>
+                                <p><a class="cate" href="#">Motors- HT/LT</a>, <a class="cate" href="#">Traction</a></p>
+                                <h4><a href="#">Motors- HT/LT, Traction, Induction</a></h4>
                             </div>
                         </div>
                     </div>
@@ -750,32 +751,47 @@
                         <div class="clientSlider owl-carousel">
                             <div class="csItem">
                                 <a href="#">
-                                    <img src="/home/images/clients/1.png" alt=""/>
+                                    <img src="/home/images/clients/1.png" alt="Indian Rail" title="Indian Rail"/>
                                 </a>
                             </div>
                             <div class="csItem">
                                 <a href="#">
-                                    <img src="/home/images/clients/2.png" alt=""/>
+                                    <img src="/home/images/clients/2.png" alt="BHEL" title="BHEL" />
                                 </a>
                             </div>
                             <div class="csItem">
                                 <a href="#">
-                                    <img src="/home/images/clients/3.png" alt=""/>
+                                    <img src="/home/images/clients/3.png" alt="CG" title="CG"/>
                                 </a>
                             </div>
                             <div class="csItem">
                                 <a href="#">
-                                    <img src="/home/images/clients/4.png" alt=""/>
+                                    <img src="/home/images/clients/4.png" alt="VOITH" title="VOITH"/>
                                 </a>
                             </div>
                             <div class="csItem">
                                 <a href="#">
-                                    <img src="/home/images/clients/5.png" alt=""/>
+                                    <img src="/home/images/clients/5.png" alt="WEG" title="WEG"/>
                                 </a>
                             </div>
                             <div class="csItem">
                                 <a href="#">
-                                    <img src="/home/images/clients/6.png" alt=""/>
+                                    <img src="/home/images/clients/6.png" alt="Reliance" title="Reliance"/>
+                                </a>
+                            </div>
+                            <div class="csItem">
+                                <a href="#">
+                                    <img src="/home/images/clients/7.png" alt="" title=""/>
+                                </a>
+                            </div>
+                             <div class="csItem">
+                                <a href="#">
+                                    <img src="/home/images/clients/8.png" alt="" title=""/>
+                                </a>
+                            </div>
+                            <div class="csItem">
+                                <a href="#">
+                                    <img src="/home/images/clients/9.png" alt="" title=""/>
                                 </a>
                             </div>
                         </div>
