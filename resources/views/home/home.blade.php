@@ -551,6 +551,30 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12 text-left">
+                        <h6 class="sub_title ">Why Choose Us</h6>
+                        <h2 class="sec_title with_bar">
+                            <span>Why Choose Us?</span>
+                        </h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12">
+                         <p>
+                                Having over 18 years of experience in design, engineering, analysis and manufacturing of mechanical,
+                                 electrical equipment and packages for Engineering industry. We provide one stop solution for engineering, design,
+                                 procurement and execution. We are strong team backed up with top engineering and experienced professionals from premier
+                                 engineering sector with average experience of +30 years in design and execution of complex products and projects. Our team comprising of
+                                  strength over +75 in numbers working on latest software required for CAD work, design, analysis and execution.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        {{-- <section class="commonSection">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 text-left">
                         <h6 class="sub_title ">Services</h6>
                         <h2 class="sec_title with_bar">
                             <span>What We Do?</span>
@@ -642,8 +666,7 @@
                     </div>
                 </div>
             </div>
-        </section>
-
+        </section> --}}
         {{-- <section class="commonSection testimonialSection">
             <div class="container">
                 <div class="row">

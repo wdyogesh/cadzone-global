@@ -120,48 +120,76 @@
                         <h2 class="sec_title with_bar">Our Members</h2>
                     </div>
                 </div>
-                {{-- <div class="row">
-                    <div class="col-xl-12">
-                        <div class="teamslider2 owl-carousel">
-                            <div class="singleTeam02">
-                                <div class="st2_inner">
-                                    <img src="{{ asset('/home/images/team/8.jpg') }}" alt=""/>
-                                    <h2><a href="#">Romada D. Williamson</a></h2>
-                                    <span>Founder</span>
-                                </div>
-                            </div>
-                            <div class="singleTeam02">
-                                <div class="st2_inner">
-                                    <img src="{{ asset('/home/images/team/10.jpg') }}" alt=""/>
-                                    <h2><a href="#">Avodo D. Code</a></h2>
-                                    <span>CTO</span>
-                                </div>
-                            </div>
-                            <div class="singleTeam02">
-                                <div class="st2_inner">
-                                    <img src="{{ asset('/home/images/team/9.jpg') }}" alt=""/>
-                                    <h2><a href="#">Humble Z. Zahin</a></h2>
-                                    <span>CEO</span>
-                                </div>
-                            </div>
-                            <div class="singleTeam02">
-                                <div class="st2_inner">
-                                    <img src="{{ asset('/home/images/team/11.jpg') }}" alt=""/>
-                                    <h2><a href="#">Costa D. Roka</a></h2>
-                                    <span>Engineer</span>
-                                </div>
-                            </div>
-                            <div class="singleTeam02">
-                                <div class="st2_inner">
-                                    <img src="{{ asset('/home/images/team/12.jpg') }}" alt=""/>
-                                    <h2><a href="#">Masum D. Boka</a></h2>
-                                    <span>Designer</span>
-                                </div>
-                            </div>
-                        </div>
+                <div class="row">
+                    <!-- Section: Team v.1 -->
+                    <section class="team-section text-center my-5">
+                    <!-- Grid row -->
+                    <div class="row">
+                    <!-- Grid column -->
+                    <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
+                    <div class="avatar mx-auto">
+                    <img src="/home/images/team/cadteam/9.jpg" class="rounded-circle z-depth-1"
+                        alt="Sample avatar">
                     </div>
-                </div> --}}
+                    <h5 class="font-weight-bold mt-4 mb-3">Jugal Kishore Bhatti</h5>
+                    {{-- <p class="text-uppercase blue-text"><strong>Graphic designer</strong></p> --}}
+                    <p class="grey-text">Ex-senior management professional from BHEL, result-oriented & dynamic Electrical engineer from hydro power
+                        sector with excellence in Electrical design of Hydro generator and Motor from “Concept to commissioning” having total experience
+                        of over 37 years in power sector with proven track record.</p>
+                    <ul class="list-unstyled mb-0"></ul>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
+                    <div class="avatar mx-auto">
+                    <img src="/home/images/team/cadteam/10.jpg" class="rounded-circle z-depth-1"
+                        alt="Sample avatar">
+                    </div>
+                    <h5 class="font-weight-bold mt-4 mb-3">Bhupesh Samantray</h5>
+                    {{-- <p class="text-uppercase blue-text"><strong>Web developer</strong></p> --}}
+                    <p class="grey-text">30+ years experienced senior management engineering professional with core proficiency in engineering,
+                        design, project procurement, sourcing, and supplier quality especially in hydro power and manufacturing sector. Expertise in design,
+                        engineering and execution of hydro RMU projects.</p>
+                    <ul class="list-unstyled mb-0"> </ul>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-lg-3 col-md-6 mb-md-0 mb-5">
+                    <div class="avatar mx-auto">
+                    <img src="/home/images/team/cadteam/11.jpg" class="rounded-circle z-depth-1"
+                        alt="Sample avatar">
+                    </div>
+                    <h5 class="font-weight-bold mt-4 mb-3">Irshad Ansari</h5>
+                    {{-- <p class="text-uppercase blue-text"><strong>Photographer</strong></p> --}}
+                    <p class="grey-text">17+ years of experience in basic layouts and detail engineering in hydro generators.
+                        Specialist in 3D modelling, 2D drawings, BOMs preparation, generator and turbine components, piping, auxiliary plants,
+                        lifting tools, covers, devices, instrumentation, wiring, cubicles and drawings verification.</p>
+                    <ul class="list-unstyled mb-0"></ul>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-lg-3 col-md-6">
+                    <div class="avatar mx-auto">
+                    <img src="/home/images/team/cadteam/12.jpg" class="rounded-circle z-depth-1"
+                        alt="Sample avatar">
+                    </div>
+                    <h5 class="font-weight-bold mt-4 mb-3">Abhishek Nath Tiwari</h5>
+                    {{-- <p class="text-uppercase blue-text"><strong>Backend developer</strong></p> --}}
+                    <p class="grey-text">10+ years of experience in design using 2D & 3D Modelling softwares i.e.
+                        Autodesk Inventer, Solidworks, ProE, Catia, NX Cad & AutoCad.</p>
+                    <ul class="list-unstyled mb-0"></ul>
+                    </div>
+                    <!-- Grid column -->
+
+                    </div>
+                    <!-- Grid row -->
+
+                    </section>
+                    <!-- Section: Team v.1 -->
+                </div>
             </div>
         </section>
-
 @endsection
