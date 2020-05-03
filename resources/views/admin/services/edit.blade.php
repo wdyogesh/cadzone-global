@@ -68,7 +68,7 @@
                     </div>
                     </div>
                     <div class="col-md-4">
-                        <img class="profile" width="60%" src="{{ url('service_images/'.$service->image_1) }}" alt="{{ $service->image_1 }}">
+                        <img class="profile" width="60%" src="{{ url('public/service_images/'.$service->image_1) }}" alt="{{ $service->image_1 }}">
                     </div>
                 </div>
 
@@ -86,7 +86,7 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <img class="profile" width="60%" src="{{ url('service_images/'.$service->image_2) }}" alt="{{ $service->image_2 }}">
+                        <img class="profile" width="60%" src="{{ url('public/service_images/'.$service->image_2) }}" alt="{{ $service->image_2 }}">
                     </div>
                 </div>
                 <div class="row">
@@ -103,7 +103,7 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <img class="profile" width="60%" src="{{ url('service_images/'.$service->image_3) }}" alt="{{ $service->image_3 }}">
+                        <img class="profile" width="60%" src="{{ url('public/service_images/'.$service->image_3) }}" alt="{{ $service->image_3 }}">
                     </div>
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>

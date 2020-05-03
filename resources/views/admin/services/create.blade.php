@@ -32,7 +32,7 @@
                 <div class="row">
                     <div class="form-group col-md-6">
                     <label class="required" for="">Title :</label>
-                    <input type="text" autocomplete="off"
+                    <input type="text" autocomplete="off" required
                     autofocus="none" value="{{ old('title')}}" title="title" id="title"
                     name="title"
                     class="form-control-sm form-control @error('title') is-danger @enderror" placeholder="Enter Service title">
@@ -45,7 +45,7 @@
                     <div class="col-md-12">
                     <div class="form-group">
                         <label for="" class="required">Description :</label>
-                        <textarea class="form-control-sm form-control" id="editor1" name="description"
+                        <textarea class="form-control-sm form-control" id="editor1" name="description" required
                         placeholder="Please Enter service description"
                         name="description" id="description" rows="3">{{ old('description') }}</textarea>
                         @error('description')
@@ -56,7 +56,7 @@
                 </div>
                 <div class="form-group">
                     <label for="">Upload Image One (First Image)</label>
-                    <input type="file" class="form-control-sm form-control-file"
+                    <input type="file" class="form-control-sm form-control-file" required
                     name="image_1" id="image_1" placeholder="Upload Company Logo"
                     {{ old('image_1') }}
                     aria-describedby="fileHelpId">
@@ -66,7 +66,7 @@
                 </div>
                 <div class="form-group">
                     <label for="">Upload Image Two</label>
-                    <input type="file" class="form-control-sm form-control-file"
+                    <input type="file" class="form-control-sm form-control-file" required
                     name="image_2" id="image_2" placeholder="Upload Company Logo"
                     {{ old('image_2') }}
                     aria-describedby="fileHelpId">
@@ -76,7 +76,7 @@
                 </div>
                 <div class="form-group">
                     <label for="">Upload Image Three</label>
-                    <input type="file" class="form-control-sm form-control-file"
+                    <input type="file" class="form-control-sm form-control-file" required
                     name="image_3" id="image_3" placeholder="Upload Company Logo"
                     {{ old('image_3') }}
                     aria-describedby="fileHelpId">

@@ -158,7 +158,7 @@
                     <!-- Grid column -->
                     <div class="col-lg-3 col-md-6 mb-md-0 mb-5">
                     <div class="avatar mx-auto">
-                    <img src="/home/images/team/cadteam/11.jpg" class="rounded-circle z-depth-1"
+                    <img src="/home/images/team/cadteam/12.jpg" class="rounded-circle z-depth-1"
                         alt="Sample avatar">
                     </div>
                     <h5 class="font-weight-bold mt-4 mb-3">Irshad Ansari</h5>
@@ -173,7 +173,7 @@
                     <!-- Grid column -->
                     <div class="col-lg-3 col-md-6">
                     <div class="avatar mx-auto">
-                    <img src="/home/images/team/cadteam/12.jpg" class="rounded-circle z-depth-1"
+                    <img src="/home/images/team/cadteam/11.jpg" class="rounded-circle z-depth-1"
                         alt="Sample avatar">
                     </div>
                     <h5 class="font-weight-bold mt-4 mb-3">Abhishek Nath Tiwari</h5>
